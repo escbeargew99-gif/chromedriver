@@ -31,3 +31,4 @@ const killChromeDriver = () => {
 
 process.on('exit', killChromeDriver)
 process.on('SIGTERM', killChromeDriver)
+
