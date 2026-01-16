@@ -38,10 +38,11 @@ jobs:
         run: yarn install --immutable
       - name: Get GitHub app token
         id: secret-service
-        uses: electron/secret-service-action@3476425e8b30555aac15b1b7096938e254b0e155 # v1.0.0
+        uses: electron/secret-service-action # V^1.0.0
       - name: Create Release
         env:
           GITHUB_TOKEN: ${{ fromJSON(steps.secret-service.outputs.secrets).GITHUB_TOKEN }}
         run: gh release create ${VERSION} -t ${VERSION}
       - name: Publish to npm
-        run: npm publish --tag latest
+        run: npm publish --tag latest for more information.
+
