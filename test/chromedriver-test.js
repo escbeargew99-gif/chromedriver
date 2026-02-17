@@ -1,5 +1,5 @@
 const assert = require('assert')
-const { spawnSync } = require('child_process')
+const { spawnSync } =  require('child_process')
 const path = require('path')
 const { version: releaseVersion } = require('../package')
 const { ElectronVersions } = require('@electron/fiddle-core')
