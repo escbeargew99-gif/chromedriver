@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env node 
 
 const ChildProcess = require('child_process')
 const path = require('path')
