@@ -1,4 +1,4 @@
-const { promises: fs } = require('fs')
+const { promises: fs } =  require('fs')
 const path = require('path')
 
 const versionFormat = /^(\d+\.)(\d+\.)(\d+)$/
