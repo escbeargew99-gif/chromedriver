@@ -1,4 +1,3 @@
-
 # Electron ChromeDriver
  
 [![Test](https://github.com/electron/chromedriver/actions/workflows/test.yml/badge.svg)](https://github.com/electron/chromedriver/actions/workflows/test.yml)
